@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+         
+       
+
+    <title>Sportify</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-container">
+
+                <h1 class="nav-title"> <a href="">Sportify</a> </h1>
+                <div class="detail">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <!-- <li><a href="infos.html">Infos</a></li> -->
+                            <li><a href="produit.html">Produits</a></li>
+                            <li><a href="contacte.html">Contacte</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-icone">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                        <i class="fa-solid fa-user-large "></i>
+                        <i class="fa-regular fa-heart "></i>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="toogle-menu">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </div>
+        </nav>
+    </header>
+
+ <!-- CARROUSEL -->
+    <section id="ACCUEIL">
+        <div class="slider">
+            <div class="slide current">
+                <div class="content">
+                    <h1>Bienvenue à Sportify</h1>
+                </div>
+            </div>
+
+            <div class="slide ">
+                <div class="content">
+                    <h1>Boutiques  en ligne</h1>
+                </div>
+                
+            </div>
+
+            <div class="slide ">
+                <div class="content">
+                    <h1>Pour les sportifs <br>  et amateurs</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+            <button id="next"><i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+    </section>
+
+    <!-- COLLECTION -->
+
+    <section id="NEW">
+
+        <h1 class="new-title">Nouveautées</h1>
+
+        <div class="new-container">
+
+            <div class="new-img">
+                <img src="./images/moyen.jpg" alt="">
+                <h2>Puma</h2>
+                <a href="#">Voir</a>
+            </div>
+
+            <div class="new-img">
+                <img src="./images/moyen2.jpg" alt="">
+                <h2>Nike</h2>
+                <a href="#">Voir</a>
+            </div>
+
+            <div class="new-img">
+                <img src="./vetements/shirt6.jpg" alt="">
+                <h2>Lacoste</h2>
+                <a href="#">Voir</a>
+            </div>
+
+        </div>
+    </section>
+<!-- prendre -->
+
+<!-- prendre -->
+    <!-- PRODUITS  -->
+
+    <section id="VENTES">
+        <h1 class="vente-title">Nos Meilleurs Ventes</h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="vente-item">
+                            <div class="vente-img">
+                                <img src="./vetements/shirt4.png" alt="">
+                                <div class="accueil-icone">
+                                    <i class="fa-solid fa-cart-shopping "></i>
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                </div>
+                            </div>
+                            
+                            <div class="vente-body">
+                                <div class="ventes-text">
+                                    <p>Lacoste</p>
+                                    <p>40 000 FCFA</p>
+                                </div>
+                            </div>
+                    </div>
+               
+                </div>
+
+
+                <div class="swiper-slide">
+                <div class="vente-item">
+                    <div class="vente-img">
+                        <img src="./vetements/shirt5.webp" alt="">
+                        <div class="accueil-icone">
+                            <i class="fa-solid fa-cart-shopping "></i>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        </div>
+                    </div>
+                
+                    <div class="vente-body">
+                        <div class="ventes-text">
+                            <p>Lacoste Sport Air</p>
+                            <p>46 000 FCFA</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                <div class="vente-item">
+                    <div class="vente-img">
+                        <img src="./images/nike2.jpg" alt="">
+                        <div class="accueil-icone">
+                            <i class="fa-solid fa-cart-shopping "></i>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        </div>
+                    </div>
+                
+                    <div class="vente-body">
+                        <div class="ventes-text">
+                            <p>Nike Sport</p>
+                            <p>60 000 FCFA</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide">
+                <div class="vente-item">
+                    <div class="vente-img">
+                        <img src="./images/puma2.jpg" alt="">
+                        <div class="accueil-icone">
+                            <i class="fa-solid fa-cart-shopping "></i>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        </div>
+                    </div>
+                
+                    <div class="vente-body">
+                        <div class="ventes-text">
+                            <p>Puma Pro</p>
+                            <p>28 000 FCFA</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="vente-item">
+                        <div class="vente-img">
+                            <img src="./images/adidas.jpg" alt="">
+                            <div class="accueil-icone">
+                                <i class="fa-solid fa-cart-shopping "></i>
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            </div>
+                        </div>
+                
+                        <div class="vente-body">
+                            <div class="ventes-text">
+                                <p>Adidas</p>
+                                <p>42 000 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="vente-item">
+                        <div class="vente-img">
+                            <img src="./images/adidas2.jpg" alt="">
+                            <div class="accueil-icone">
+                                <i class="fa-solid fa-cart-shopping "></i>
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            </div>
+                        </div>
+                
+                        <div class="vente-body">
+                            <div class="ventes-text">
+                                <p>Adidas Next Gen</p>
+                                <p>70 000 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="vente-item">
+                        <div class="vente-img">
+                            <img src="./images/puma3.jpg" alt="">
+                            <div class="accueil-icone">
+                                <i class="fa-solid fa-cart-shopping "></i>
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            </div>
+                        </div>
+                
+                        <div class="vente-body">
+                            <div class="ventes-text">
+                                <p>Nike Sport plus</p>
+                                <p>49 000 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="vente-item">
+                        <div class="vente-img">
+                            <img src="./images/nike3.jpg" alt="">
+                            <div class="accueil-icone">
+                                <i class="fa-solid fa-cart-shopping "></i>
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            </div>
+                        </div>
+                
+                        <div class="vente-body">
+                            <div class="ventes-text">
+                                <p>Nike Aero</p>
+                                <p>39 000 FCFA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div> 
+    </section>
+
+
+    <!-- ACTIVITE -->
+
+    <section id="ACTIVITE">
+        <div class="activite-container">
+            <div class="activite-item">
+                <img src="./images/activite.jpg" alt="">
+                <div class="activite-text">
+                    <h1>Sportify vous rend sportif</h1>
+                    <a href="#">Voir Plus</a>
+                </div>
+            </div>
+
+            <div class="activite-item">
+                <img src="./images/activite2.jpg" alt="">
+                <div class="activite-text">
+                    <h1>De Douveaux Stock chaques jours</h1>
+                    <a href="#">Voir Plus</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!-- EDITION1 -->
+    <section id="EDITION">
+
+        <h1 class="edition-title">EDITION LIMITES</h1>
+
+        <div class="edition-container">
+
+            <div class="vente-item limited">
+                <div class="vente-img">
+                    <img src="./images/jordan.jpg" alt="">
+                    <div class="accueil-icone">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+            
+                <div class="vente-body">
+                    <div class="ventes-text">
+                        <p>Jordan</p>
+                        <p>60 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vente-item limited">
+                <div class="vente-img">
+                    <img src="./images/jordanair.jpg" alt="">
+                    <div class="accueil-icone">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+            
+                <div class="vente-body">
+                    <div class="ventes-text">
+                        <p>Jordan Air</p>
+                        <p>79 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="vente-item limited">
+                <div class="vente-img">
+                    <img src="./images/jordansport.jpg" alt="">
+                    <div class="accueil-icone">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+            
+                <div class="vente-body">
+                    <div class="ventes-text">
+                        <p>Jordan Sport</p>
+                        <p>100 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDITION2 -->
+
+    <section id="EDITION">
+    
+        <h1 class="edition-title">Divers produits</h1>
+    
+        <div class="edition-container">
+    
+            <div class="vente-item limited">
+                <div class="vente-img">
+                    <img src="./vetements/shirt.png" alt="">
+                    <div class="accueil-icone">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+    
+                <div class="vente-body">
+                    <div class="ventes-text">
+                        <p>T-shirt moulant Noir</p>
+                        <p>30 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="vente-item limited">
+                <div class="vente-img">
+                    <img src="./vetements/shirt2.png" alt="">
+                    <div class="accueil-icone">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+    
+                <div class="vente-body">
+                    <div class="ventes-text">
+                        <p>T-shirt Rouge</p>
+                        <p>29 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="vente-item limited">
+                <div class="vente-img">
+                    <img src="./vetements/shirt3.png" alt="">
+                    <div class="accueil-icone">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                </div>
+    
+                <div class="vente-body">
+                    <div class="ventes-text">
+                        <p>T-shirt moulant Blanc</p>
+                        <p>40 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+
+    <!-- SERVICE -->
+    <section id="SEVICE">
+
+        <div class="service-container">
+            <div class="service-item">
+                <i class="fa-solid fa-truck fa-2x"></i>
+                <h2>Livraison Gratuite</h2>
+                <p> A partir de 100 000 FCFA</p>
+            </div>
+
+            <div class="service-item">
+                <i class="fa-regular fa-credit-card fa-2x"></i>
+                <h2>Paiment en ligne</h2>
+                <p>100% securisé</p>
+            </div>
+
+            <div class="service-item">
+            <i class="fa-solid fa-truck-ramp-box fa-2x"></i>
+                <h2>Retour Gratuit</h2>
+                <p>Remboursement en 10 jours</p>
+            </div>
+
+            <div class="service-item">
+                <i class="fa-solid fa-truck-ramp-box fa-2x"></i>
+                <h2>Support Client</h2>
+                <p> 7j/7</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!--FOOTER -->
+
+<section id="FOOTER">
+
+    <div class="footer-container">
+        <div class="footer-item">
+            <h1>Contactez-Vous</h1>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Plateau, rue 14</p>
+                 </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+221 678 99 00</p>
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                <p>infos@sportify.com</p>
+            </li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h1>Ouvertures</h1>
+
+            <ul>
+                <li>Lundi-jeudi: 8h-20h</li>
+                <li>Vendredi: 9h-19h</li>
+                <li>Samedi: 9h-17h</li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h1>Notification</h1>
+            <div class="notification">
+                <input type="email" placeholder="email">
+                <button>inscription</button>
+
+            </div>
+
+            <div class="paiement">
+            <i class="fa-brands fa-cc-visa fa-2x visa"></i>
+            <i class="fa-brands fa-cc-mastercard fa-2x master"></i>
+            <i class="fa-brands fa-google-pay fa-2x google"></i>
+            <i class="fa-brands fa-cc-apple-pay fa-2x"></i>
+            <i class="fa-brands fa-cc-paypal fa-2x paypal"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    <script src="main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+
+            speed: 2000,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+
+            },
+
+            loop: true,
+            breakpoints: {
+                0:{
+                    slidesPerView: 1.2,
+                    slidesPerGroup: 1,
+                    spaceBetween: 10,
+                },
+
+                  510: {
+                    slidesPerView: 2.2,
+                    slidesPerGroup: 1,
+                    spaceBetween: 10,
+                },
+
+                  900: {
+                    slidesPerView: 3.2,
+                    slidesPerGroup: 1,
+                    spaceBetween: 10,
+                },
+
+                  1100: {
+                    slidesPerView: 4.2,
+                    slidesPerGroup: 1,
+                    spaceBetween: 10,
+                },
+            }
+        });
+    </script>
+
+</body>
+</html>

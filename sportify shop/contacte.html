@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sportify</title>
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="nav-container">
+    
+                <h1 class="nav-title"> <a href="">Sportify</a> </h1>
+                <div class="detail">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <!-- <li><a href="infos.html">Infos</a></li> -->
+                            <li><a href="produit.html">Produits</a></li>
+                            <li><a href="contacte.html">Contacte</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-icone">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                        <i class="fa-solid fa-user-large "></i>
+                        <i class="fa-regular fa-heart "></i>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="toogle-menu">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CARROUSEL -->
+    <section id="ACCUEIL">
+        <div class="slider">
+            <div class="slide current">
+                <div class="content">
+                    <h1>Bienvenue à Sportify</h1>
+                </div>
+            </div>
+    
+            <div class="slide ">
+                <div class="content">
+                    <h1>Boutiques de vetements en ligne</h1>
+                </div>
+    
+            </div>
+    
+            <div class="slide ">
+                <div class="content">
+                    <h1>Pour les sportifs <br> professionels et amateurs</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+            <button id="next"><i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+    </section>
+
+  <!-- CONTACTE -->
+
+  <section id="CONTACTE">
+    <h1 class="contacte-title">Contacte</h1>
+    <div class="contacte-container">
+
+        <div class="contacte">
+
+            <div class="footer-item contacte-item ">
+                
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Plateau, rue 14</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+221 678 99 00</p>
+                    </li>
+            
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>infos@sportify.com</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+       
+        
+
+
+        <div class="contacte-formulaire">
+            <form action="">
+               <div class="form">
+                <input type="text" name="nom" placeholder="Nom & Prenom">
+                <input type="email" placeholder="email">
+                <input type="number" placeholder="numero">
+                <input type="text" placeholder="objet">
+                <textarea name="" id="" rows="10" placeholder="Message" ></textarea>
+
+
+               </div>
+                
+            </form>
+
+            <button class="submit" type="submit">Envoyer</button>
+        </div>
+    </div>
+
+  </section>
+
+
+
+<!--FOOTER -->
+
+<section id="FOOTER">
+
+    <div class="footer-container">
+        <div class="footer-item">
+            <h1>Contactez-Vous</h1>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Plateau, rue 14</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+221 678 99 00</p>
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>infos@sportify.com</p>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h1>Ouvertures</h1>
+
+            <ul>
+                <li>Lundi-jeudi: 8h-20h</li>
+                <li>Vendredi: 9h-19h</li>
+                <li>Samedi: 9h-17h</li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h1>Notification</h1>
+            <div class="notification">
+                <input type="email" placeholder="email">
+                <button>inscription</button>
+
+            </div>
+
+            <div class="paiement">
+            <i class="fa-brands fa-cc-visa fa-2x visa"></i>
+            <i class="fa-brands fa-cc-mastercard fa-2x master"></i>
+            <i class="fa-brands fa-google-pay fa-2x google"></i>
+            <i class="fa-brands fa-cc-apple-pay fa-2x"></i>
+            <i class="fa-brands fa-cc-paypal fa-2x paypal"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
